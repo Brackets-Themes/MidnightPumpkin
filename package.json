@@ -1,0 +1,20 @@
+{
+    "title": "Midnight Pumpkin",
+    "name": "midnight-pumpkin",
+    "description": "Dark theme. Black, white, orange and yellow. A Brackets original.",
+    "version": "1.0.0",
+    "author": "larz0 (https://github.com/larz0)",
+    "homepage": "https://github.com/Brackets-Themes/MidnightPumpkin",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Brackets-Themes/MidnightPumpkin.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "midnightpumpkin.css",
+        "dark": true
+    }
+}

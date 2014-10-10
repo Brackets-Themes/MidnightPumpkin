@@ -1,0 +1,111 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #f0f0f0; }
+span.cm-def			{ color: #f0f0f0; }
+span.cm-header      { color: #f0f0f0; }
+span.cm-qualifier	{ color: #f0f0f0; }
+
+span.cm-atom		{ color: #82828d; }
+span.cm-bracket		{ color: #82828d; }
+span.cm-operator	{ color: #82828d; }
+span.cm-meta		{ color: #82828d; }
+span.cm-tag			{ color: #82828d; }
+
+span.cm-link		{ color: #d8c355; }
+span.cm-number		{ color: #d8c355; }
+
+span.cm-string		{ color: #ff8e3c; }
+span.cm-string-2    { color: #ff8e3c; }
+span.cm-variable	{ color: #ff8e3c; }
+span.cm-variable-2	{ color: #ff8e3c; }
+span.cm-variable-3	{ color: #ff8e3c; }
+
+span.cm-attribute	{ color: #d3d3d9; }
+
+span.cm-keyword		{ color: #bbbbc6; }
+span.cm-property	{ color: #bbbbc6; } /* property after string */
+
+span.cm-comment		{ color: #666666; }
+span.cm-error		{ background-color: #6d3000; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.5;
+}
+
+.CodeMirror-scroll {
+    background: #141617;
+	color: #b1b1b1;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #141617;
+	border-right: 1px solid #141617;
+}
+
+.CodeMirror-linenumber {
+	color: #555555;
+}
+
+.CodeMirror-selected {
+    background-color: #6a2e00;
+}
+
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff8e3c !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #1e2021 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: transparent !important;
+}
+
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #333 !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #141617;
+}
+
+#image-holder {
+    color: #b1b1b1;
+}
+
+.view-pane {
+    opacity: 0.69;
+}
+
+.view-pane.active-pane {
+    opacity: 1;
+}
